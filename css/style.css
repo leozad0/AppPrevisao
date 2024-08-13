@@ -1,0 +1,65 @@
+/* Configurações globais */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(3,137,206,1) 76%, rgba(11,152,222,1) 77%, rgba(0,212,255,1) 100%);
+}
+
+#container{
+    background-color: black;
+    opacity: 0.7;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 350px;
+}
+
+input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button{
+    font-size: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.titulo{
+    margin-top: 15px;
+}
+
+.temperatura{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.box-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.umidade{
+    margin-top: 15px;
+}
+
+.texto-previsao{
+    text-transform: capitalize;
+}
